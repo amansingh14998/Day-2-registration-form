@@ -1,0 +1,39 @@
+body{
+	background:#C5E1A5;
+}
+
+.container{
+	margin-left: 15%;
+	margin-top: 2%;
+	border-radius: 20px;
+	padding: 2% 0 0 10%;
+	width: 60%;
+	background: lightgray;
+}
+.col-1{
+	float:left;
+	width: 50%;
+}
+.col-2{
+	float:left;
+	width: 50%;
+	padding-bottom: 10px;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form-control{
+	border-radius: 9px;
+	border:none;
+	font-family: Comic Sans MS, Sans-Serif;
+}
+.form-control:focus{
+	outline-color: lightblue;
+	border-width: 5px;
+}
